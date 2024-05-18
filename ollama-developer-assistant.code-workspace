@@ -1,0 +1,10 @@
+{
+	"folders": [
+		{
+			"path": "../ollama-developer-assistant"
+		}
+	],
+	"settings": {
+		"typescript.tsc.autoDetect": "off"
+	}
+}
