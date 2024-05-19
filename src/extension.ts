@@ -6,7 +6,7 @@ import { RecursiveCharacterTextSplitter } from "langchain/text_splitter"
 import { MemoryVectorStore } from "langchain/vectorstores/memory";
 import { RetrievalQAChain } from "langchain/chains";
 import { OllamaEmbeddings } from '@langchain/community/embeddings/ollama';
-import ChatViewProvider from './chat-view-provider';
+import ChatViewProvider from './provider/chat-view.provider';
 import CompletionItemsProvider from './provider/completion-items.provider';
 import { Config, getConfig } from './model/vscode-config.model';
 
